@@ -1,0 +1,48 @@
+<%- include('partials/header'); %>
+<%- include('partials/navbar'); %>
+<%- include('partials/slider'); %>
+
+<div class="pokeCards ">
+<div class="poke">
+<div class="card" style="width: 18rem; height: 375px; ">
+    <img src="/images/elekid.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= firstPokeName %></h5>
+      <p class="card-text"><%= firstPokeOrder %></p>
+    </div>
+  </div>
+</div> 
+
+<div class="poke">
+  <div class="card" style="width: 18rem; ">
+      <img src="/images/pikachu.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= secPokeName %></h5>
+        <p class="card-text"><%= secPokeOrder %></p>
+      </div>
+    </div>
+  </div> 
+
+  <div class="poke">
+    <div class="card" style="width: 18rem; ">
+        <img src="/images/bibarel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><%= thirdPokeName %></h5>
+          <p class="card-text"><%= thirdPokeOrder %></p>
+        </div>
+      </div>
+    </div> 
+
+    <div class="poke">
+      <div class="card" style="width: 18rem; ">
+          <img src="/images/sylveon.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><%= fourthPokeName %></h5>
+            <p class="card-text"><%= fourthPokeOrder %></p>
+          </div>
+        </div>
+      </div> 
+
+  </div>
+
+<%- include('partials/footer'); %>
